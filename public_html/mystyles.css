@@ -1,0 +1,220 @@
+    body{
+        margin:20px;
+        background-image: url(krists-luhaers-AtPWnYNDJnM-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: black;
+    }
+    body.odd{
+        margin:20px;
+        background-color: black;
+        background-image: url(book.jpg);
+        background-repeat: repeat;
+        background-origin: left;
+        color: black;
+    }
+    div{
+        padding:10px;
+        overflow:auto;
+    }
+    .content {
+        max-width: 1060px;
+        margin: auto;
+        background-color: rgb(236, 229, 229);
+    }
+    #intro{
+        font: arial, Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        width: inherit;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+    }
+    intro{
+        font: arial, Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+    }
+    #cname {
+        text-align: center;
+        position: relative;
+    }
+
+    .booking input{
+        padding: 12px 20px;
+        border: none;
+        border-bottom: 2px solid black;
+    }
+    input[type=text]:focus{
+        border: 3px solid rgb(214, 218, 218);
+    }
+    input[type=email]:focus{
+        border: 3px solid rgb(214, 218, 218);
+    }
+    input.sub{
+        text-align: center;
+    }
+    .perftable{
+        font-size: 15px;
+        font-family: arial, Arial, Helvetica, sans-serif;
+        border: 1px solid rgba(113, 113, 133, 0.466);
+        border-spacing: 0;
+        border-collapse: collapse;
+         margin-left: auto;
+         margin-right: auto;
+    }
+     .perftable td{
+        border-bottom: 2px solid rgba(113, 113, 133, 0.466);
+        border-spacing: 0;
+        border-collapse: collapse;
+        
+    }
+   
+    .perftable td{
+        padding: 5px;
+        text-align: left;
+
+    }
+    .perftable th{
+        font-size: 17x;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: left;
+        background-color: rgba(236, 59, 35, 0.719);
+        color: white;
+    }
+    .seats{
+        font-size: 15px;
+        font-family: arial, Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        background-color: rgba(251, 249, 252, 0.89);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px;
+    }
+    .seats th{
+        border-bottom: 5px solid rgb(0, 0, 0);
+        
+        
+    }
+    .seats td{
+        padding: 15px;
+        text-align: left;
+         border-bottom: 2px solid rgb(0, 0, 0);
+
+    }
+    .seats th{
+        font-size: 17x;
+        padding: 20px;
+        text-align: left;
+        color: solid black;
+    }
+
+    .seatform input{
+        border-radius: 2px;
+        padding: 4px;
+        background-color: rgba(209, 17, 17, 0.596);
+        text-align: center;
+        font-family: monospace;
+        color: white;
+        
+    }
+    #intro input[type=submit]{
+        border-radius: 2px;
+        padding: 10px;
+        background-color: rgba(209, 17, 17, 0.596);
+        text-align: center;
+        font-family: monospace;
+        color: white;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul #seatsum, ul .b{
+        list-style-type: none;
+    }
+
+    .seatform input:hover{
+      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24), 0 8px 9px 0 rgba(0, 0, 0, 0.815);
+     }
+
+    .seats input[type=checkbox]{
+        box-shadow: 1px 1px 1px rgba(0,1,1,1), 1px 1px 1px rgba(0,1,1,1);
+    }
+    div.header{
+        padding: 10px;
+        text-align: center;
+        background-image: url(krists-luhaers-AtPWnYNDJnM-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-position: center;
+  ;
+        
+    }
+    div.simg{
+        padding: 30px;
+        text-align: center;
+        background-image: url(seats.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-position: center;
+    }
+    div.blogo{
+        padding: 80px;
+        text-align: center;
+        background-image: url(booking.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-position: center;
+
+    }
+    div.booking{
+        position: relative;
+        text-align: center;
+        width: 400px;
+        border: 1px solid white;
+        padding: 20px;
+        margin: auto; 
+        background-color: rgba(255, 255, 255, 0.705);  
+    }
+    label{
+        padding: 2px;
+    }
+   .booking input#sub{
+    padding: 10px;
+         background-color: rgb(0, 0, 0);
+         color: white;
+   }
+   input.sub:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+    }   
+    div.clogoh {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        margin: auto;
+        color: white;
+    }
+    img.clogo {
+        width: 100px;
+        height: 100px;
+        position: relative;
+    }
+    hr.divide1{
+        width: 100%;
+    }
+    #wel{
+        position: center;
+        margin: auto;
+        padding: 15px;
+        text-align: center;
+    }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyles.css">
+    <script src="validate.js"></script>
+    <title>Cosimo's Theatre</title>
+</head>
+<body>
+    <div class="clogoh">
+         <img class="clogoh" src="THE COSIMO THEATRES.png" width="100px" height="100px" alt="company logo">
+        <h1 id="cname"> The Cosimo</h1>
+        </div>
+        <hr class="divide1">
+   <div class = "content">
+    <div id = "intro">
+    <h1 id ="wel">Welcome to <em>COSIMO THEATRES</em>.<br> Home of great experiences</h1>
+    <p><h2><em>Tickets and booking</em></h2>
+    <strong>Booking online is quick
+    and easy, you can also visit us at our office
+    situated in the foyer.</strong></p>
+    <p><h3>Our opening hours</h3>
+    Our Box Office is open for phone
+    bookings Monday-Saturday 10am to 5pm.
+    </p>
+    </div>
+
+    <div class="booking">
+    <h3>
+        Sign in to view all our scheduled performance;
+    </h3>
+    <form action="perf.php" target="_self" method="POST" name="userinfo">
+        <p><label for="name" id="name" >Full Name:</label><br>
+        <input type="text" name="name" placeholder="John Doe" required></p><br>
+        <p><label for="email" id ="email" >Email:</label><br>
+        <input type="email" name="email" id ="email" placeholder ="johndoes@email.com" required onchange="
+        var eml = this.value;
+        if(valemail(eml) == false){alert('please put in a valid email address');}"
+        ></p><br>
+        <input class="sub" type = "submit" value="submit">
+    </form>
+    </div>
+
+    </div>
+</body>
+</html>
